@@ -1,0 +1,72 @@
+/* Styles.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0; /* Increase the padding */
+    text-align: center;
+    width: 100%; /* Set the width to 100% */
+}
+
+
+header .logo {
+    height: 50px;
+}
+
+header .logo-text {
+    margin-left: 10px;
+    font-size: 30px;
+    color: #fff; /* Match the color of the text in the header */
+}  
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f4f4f4; /* Change the background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.75em;
+}
+
+p {
+    margin-bottom: 1.5em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive design */
+@media (max-width: 800px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
